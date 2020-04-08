@@ -1,0 +1,104 @@
+.player-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.player-profile .imageContainer img {
+    border-radius: 100px;
+}
+
+.player-name {
+    display: flex;
+    align-items: center;
+}
+
+.player-name a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.player-name a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.player-name svg {
+    font-size: 20px;
+}
+
+.player-name h2 {
+    color: rgba(0, 0, 0, 0.65);
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+.rank {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.rankMedal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    height: 140px;
+    width: 124px;
+    justify-content: center;
+    filter: drop-shadow(rgba(0, 0, 0, 0.3) 2px -2px 2px) drop-shadow(rgba(0, 0, 0, 0.3) 2px -2px 2px);
+}
+
+.player-badges {
+    display: flex;
+    width: 210px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rankMedal .rankMedal-star {
+    position: absolute;
+    top: 0px;
+    height: 124px;
+    width: 124px;
+    
+}
+
+.rankMedal .rankMedal-icon {
+    height: 124px;
+    width: 124px;
+}
+
+.player-stats-results{
+    display: flex;
+    flex-direction: column;
+}
+
+.player-stats {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.result-win {
+    color: rgb(102, 187, 106);
+    font-size: 20px;
+    display: block;
+}
+
+.result-loss {
+    color: rgb(255, 76, 76);
+    font-size: 20px;
+    display: block;
+}
