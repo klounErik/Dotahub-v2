@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+
+}
+.ant-pagination-item-link span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 25%;  
+}
+
+.hero {
+    display: flex;
+}
+
+.hero p {
+    display: flex;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+}
